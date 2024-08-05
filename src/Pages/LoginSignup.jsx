@@ -19,7 +19,7 @@ const LoginSignup = () => {
   
 
     let responseData;
-      await fetch('http://localhost:4000/login',{
+      await fetch('http://localhost:8081/login',{
         method:'POST',
         headers:{
           Accept:'application/form-data',
@@ -43,7 +43,7 @@ const LoginSignup = () => {
     
     console.log("Singup Function Executed");
     let responseData;
-    await fetch('http://localhost:4000/signup', {
+    await fetch('http://localhost:8081/signup', {
       method: 'POST',
       headers: {
         Accept: 'application/form-data',
